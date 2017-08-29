@@ -1,12 +1,29 @@
 {
+  "name": "felipeorlando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "next": "^3.0.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
+  "devDependencies": {},
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production next start"
-  }
+    "start": "NODE_ENV=production next start",
+    "heroku-postbuild": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeorlando/test-next.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeorlando/test-next/issues"
+  },
+  "homepage": "https://github.com/felipeorlando/test-next#readme"
 }
